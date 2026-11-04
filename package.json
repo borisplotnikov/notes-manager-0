@@ -1,0 +1,27 @@
+{
+  "name": "notes-manager-0",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vp dev",
+    "build": "tsc && vp build",
+    "preview": "vp preview",
+    "prepare": "vp config"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2",
+    "vite": "catalog:",
+    "vite-plus": "catalog:"
+  },
+  "resolutions": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@1.4.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "yarn",
+      "version": "4.18.1",
+      "onFail": "download"
+    }
+  }
+}
