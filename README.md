@@ -1,4 +1,4 @@
-# Notes App
+# Notes Manager
 
 ![Static Badge](https://img.shields.io/badge/React-%233D3D3D?style=for-the-badge&logo=react)
 ![Static Badge](https://img.shields.io/badge/vite%2B-%233D3D3D?style=for-the-badge&logo=vite)
@@ -11,7 +11,7 @@
 
 ## Description
 
-A simple, minimalistic notes application built with React.
+A simple, minimalistic notes management applicatoin built with React.
 
 ## Features
 
