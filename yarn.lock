@@ -1373,6 +1373,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lucide-react@npm:^1.75.0":
+  version: 1.75.0
+  resolution: "lucide-react@npm:1.75.0"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 10c0/05b78e961ebf87e6a03901655148c629465165e341ca5d2288dc7e4d1feeeb12a4cc26cfa09cbe94eb14d79189c52de97fde6880c7e5ead46763d2a7bf3b77b8
+  languageName: node
+  linkType: hard
+
 "lz-string@npm:^1.5.0":
   version: 1.5.0
   resolution: "lz-string@npm:1.5.0"
@@ -1461,6 +1474,7 @@ __metadata:
     "@types/react": "npm:^19"
     "@types/react-dom": "npm:^19"
     bootstrap: "npm:^5.3.9"
+    lucide-react: "npm:^1.75.0"
     react: "npm:^19.3.1"
     react-bootstrap: "npm:^2.10.10"
     react-dom: "npm:^19.3.1"
