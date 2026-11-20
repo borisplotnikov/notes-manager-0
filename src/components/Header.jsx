@@ -5,7 +5,7 @@ function Header() {
     <nav className="navbar bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <NotebookPen size={48} color="red" strokeWidth={3} />
+          <NotebookPen size={32} color="red" strokeWidth={3} />
           Navbar
         </a>
         <button className="btn btn-outline-success">New Note</button>
