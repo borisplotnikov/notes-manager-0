@@ -28,7 +28,9 @@
     }
   },
   "dependencies": {
+    "bootstrap": "^5.3.9",
     "react": "^19.3.1",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "^19.3.1"
   }
 }
