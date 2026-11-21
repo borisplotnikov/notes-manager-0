@@ -23,3 +23,7 @@ gh repo view --json defaultBranchRef
 
 git push origin --delete project-setup
 git fetch --prune
+
+Create page components
+Add Lucid to stack and README
+Create Jira epic
