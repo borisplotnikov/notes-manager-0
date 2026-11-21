@@ -1,16 +1,19 @@
 import NotebookPen from "lucide-react/icons/notebook-pen";
+import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
+import Navbar from "react-bootstrap/Navbar";
 
 function Header() {
   return (
-    <nav className="navbar bg-body-tertiary">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <NotebookPen size={32} color="red" strokeWidth={3} />
+    <Navbar className="bg-body-secondary" data-bs-theme="dark">
+      <Container className="bg-body-tertiary rounded-3 py-2">
+        <Navbar.Brand>
+          <NotebookPen size={32} color="red" strokeWidth={3} aria-hidden="true" />
           Navbar
-        </a>
-        <button className="btn btn-outline-success">New Note</button>
-      </div>
-    </nav>
+        </Navbar.Brand>
+        <Button>New Note</Button>
+      </Container>
+    </Navbar>
   );
 }
 

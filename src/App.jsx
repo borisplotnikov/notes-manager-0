@@ -1,7 +1,7 @@
-import Header from "./components/Header";
+import NotesList from "./components/pages/NotesList";
 
 function App() {
-  return <Header />;
+  return <NotesList />;
 }
 
 export default App;
