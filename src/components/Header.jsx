@@ -9,7 +9,7 @@ function Header() {
       <Container className="bg-body-tertiary rounded-3 py-2">
         <Navbar.Brand>
           <NotebookPen size={32} color="red" strokeWidth={3} aria-hidden="true" />
-          Navbar
+          React Notes Manager
         </Navbar.Brand>
         <Button>New Note</Button>
       </Container>
