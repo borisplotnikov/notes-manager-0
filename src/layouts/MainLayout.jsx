@@ -4,7 +4,7 @@ import NotebookPen from "lucide-react/icons/notebook-pen";
 import Button from "react-bootstrap/Button";
 import Navbar from "react-bootstrap/Navbar";
 
-function Template({ title, children }) {
+function MainLayout({ title, children }) {
   return (
     <>
       <Navbar className="bg-body-secondary" data-bs-theme="dark">
@@ -30,4 +30,4 @@ function Template({ title, children }) {
   );
 }
 
-export default Template;
+export default MainLayout;
