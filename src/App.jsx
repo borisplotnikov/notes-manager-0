@@ -1,5 +1,5 @@
-// import NotesList from "./components/pages/NotesList";
-import NoteEditor from "./components/pages/NoteEditor";
+// import NotesList from "./pages/NotesList";
+import NoteEditor from "./pages/NoteEditor";
 
 function App() {
   return (
